@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Geografic Quiz</title>
+</head>
+<body>
+    <a href="form.html">Page 2</a>
+    <h1 align="center">Geographical Quiz</h1>
+    <form method="post" action="https://formspree.io/svetapogranichna@gmail.com">
+        <fieldset>
+            <label>1. What is the capital of Australia?
+                <input type="text" name="answer" required placeholder="Your answer">
+            </label>
+            <input type="submit" value="send">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>2.Where would you find the Mariana Trench?</legend>
+            <p>
+              <input type="radio" name="location" id="trench-1" value="Northern">
+              <label for="trench-1">Northern Ocean</label>
+            </p>
+            <p>
+              <input type="radio" name="location" id="trench-2" value="Atlantic">
+              <label for="trench-2">Atlantic Ocean</label>
+            </p>
+            <p>
+              <input type="radio" name="location" id="trench-3" value="Pacific">
+              <label for="trench-3">Pacific Ocean</label>
+            </p>
+        </fieldset>
+        <br>
+        <section>
+            <fieldset>
+              <legend>What is the northernmost capital city in the world?</legend>
+              <ol>
+                  <li>
+                    <label for="city-h">
+                      <input type="radio" id="city-h" name="nothernmost" value="Helsinki" >
+                      Helsinki
+                    </label>
+                  </li>
+                  <li>
+                    <label for="city-r">
+                      <input type="radio" id="city-r" name="nothernmost" value="Reykjavík">
+                      Reykjavík
+                    </label>
+                  </li>
+                  <li>
+                    <label for="city-o">
+                      <input type="radio" id="city-o" name="nothernmost" value="Oslo">
+                      Oslo
+                    </label>
+                  </li>
+              </ol>
+            </fieldset>
+        </section>    
+        <section>
+            <h3>True/False question</h3>
+              <label for="iceland">
+                <span>Iceland is covered in ice.</span>
+              </label>
+              <select id="iceland" name="true-false">
+                <option value="true">True</option>
+                <option value="false">False</option>
+              </select>
+        </section>    
+        <section align="center">  
+            <h3>Resive your score within email</h3>
+              <label>Name:
+                  <input type="text" name="client-name" required 
+                  placeholder="Your Name">
+              </label>
+              <br><br>
+              <label>E-mail:
+                  <input type="text" name="e-mail" required
+                  placeholder="Your E-mail">
+              </label>
+              <br>
+              <br>
+              <button type="submit">Send</button> 
+        </section>
+    </form>
+</body>
+</html>
+
